@@ -1,5 +1,6 @@
 from app import create_app
 from flask import render_template
+from app.models import Users,Subject,Chapters,Quiz,Question,Scores
 app=create_app()
 @app.route('/')
 def home():
